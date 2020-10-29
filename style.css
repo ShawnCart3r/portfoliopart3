@@ -1,12 +1,12 @@
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center; 
-    color: yellow;
+    color: white;
  }
 
  h2 {
      font-family: Arial, Helvetica, sans-serif;
-     color: black;
+     color: white;
    margin-top: auto;
    margin-bottom: auto;
    text-align: center;
@@ -20,10 +20,20 @@ p  {
     display: block;
      margin-left: auto;
      margin-right: auto;
+     color: black;
  }
 
  p {
      text-align: center;
+
+ }
+
+ button {
+
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+
  }
 
 
@@ -39,28 +49,113 @@ p  {
      text-align: center;
  }
  .s1 {
-    background-color: red;
+    background-color: black;
      background-size:  cover;
     
  }
  
  .s2 {
-     background-color: blue;
+     background-color: black;
      background-size:  cover;
     
  }
  
  .s3 {
-     background-color: green;
+     background-color: black;
      background-size:  cover;
     
  }
  
  .s4 {
-     background-color: purple;
+     background-color: black;
      background-size:  cover;
     
  }
+
+ .p {
+    background-color: black;
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
+ 
+
+  
+ }
+
+ .I {
+    background-color: black;
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
+
+ }
+
+ .o {
+    background-color: black;
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
+ }
+ .k{
+    background-color: black;
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
+ }
+ .l {
+    background-color: black;
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
+ }
+
+ .g {
+    background-color: black;
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
+ }
+ .a {
+    background-color: black;
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
+ }
+
+ .b {
+    background-color: black;
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
+ }
+
+ .flex-container {
+    display: flex;
+    background-color: black;
+  }
+  
+  .flex-container > div {
+    background-color:  white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+   
+  }
+
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
 
  
  

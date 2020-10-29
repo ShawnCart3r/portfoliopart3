@@ -5,4 +5,5 @@ new fullpage('#fullpage', {
     navigationTooltips: ['Home', 'About', 'Work', 'Contact'],
     showActiveTooltip: true,
     scrollingSpeed: 1000,
-})
+});
+
