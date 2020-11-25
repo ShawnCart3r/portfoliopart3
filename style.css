@@ -55,6 +55,10 @@ p  {
      margin-right: auto;
 
  }
+ .responsive{
+  max-width: 100%;
+  height: auto;
+ }
 
  a {
      text-align: center;
